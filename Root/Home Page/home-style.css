@@ -1,0 +1,70 @@
+header {
+    background: rgb(110, 5, 5);
+}
+
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    float: right
+}
+
+.container {
+    background: rgb(110, 5, 5);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 30px;
+
+    position: relative;
+}
+
+nav ul>li>a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+nav ul>li>a:hover {
+    color: rgb(168, 168, 168);
+}
+
+nav ul>li>a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+
+nav ul>li>a:hover::before {
+    width: 100%
+}
