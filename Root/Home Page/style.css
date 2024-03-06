@@ -1,5 +1,5 @@
 
-.header{
+header{
     background: rgb(110, 5, 5);
 }
 
@@ -18,3 +18,13 @@ nav{
     width: 80%;
     margin: 0 auto;
 }
+
+.logo {
+    float: left;
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
