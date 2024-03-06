@@ -1,24 +1,20 @@
-.header {
-    padding: 30px;
-    text-align: center;
-    background: rgb(110, 5, 5);
-    color: white;
-    font-size: 30px;
-}
 
+.header{
+    background: rgb(110, 5, 5);
+}
 
 .h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.founded {
-    padding: -40px;
-    margin: -40px;
-    font-size: 20px;
+
+
+nav{
+    float: right
 }
 
-.slogan{
-    padding: 40px;
-    margin: 40px;
-
+.container {
+    background: rgb(110, 5, 5);
+    width: 80%;
+    margin: 0 auto;
 }
