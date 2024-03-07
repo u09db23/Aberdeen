@@ -1,3 +1,11 @@
+body {
+    background-color: rgba(250, 207, 143, 0.319);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
 header {
     background: rgb(110, 5, 5);
 }
@@ -88,5 +96,13 @@ nav ul>li>a:hover::before {
 .map {
   float: right;
   padding: 50px;
-  margin: 50px 50px
+  margin: 50px 50px;
+  scale: 100%
+}
+
+.homepara1 {
+    padding: 25px;
+    margin-top: 75px;
+    font-size: large;
+
 }
