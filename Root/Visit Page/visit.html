@@ -33,15 +33,35 @@
 
 
     <div class="row">
-        <div class="column left" style="background-color:#aaa;">
-          <h2>Column 1</h2>
-          <p>Text</p>
+        <div class="column left">
+            <h2>Things To Do In Aberdeen</h2>
+            <button onclick="changeText('Button 1')">Codonas</button>
+
+
+
+
+            <button onclick="changeText('Button 2')">Aberdeen Art Gallery</button>
+
+
+
+
+            <button onclick="changeText('Button 3')">Duthie Park</button>
+
+
+
+            
         </div>
-        <div class="column right" style="background-color:#bbb;">
-          <h2>Column 2</h2>
-          <p>Text</p>
+        <div class="column right">
+            <h2>Column 2</h2>
+            <p id="rightText">Text</p>
         </div>
-      </div>
+    </div>
+
+    <script>
+        function changeText(newText) {
+            document.getElementById("rightText").innerText = newText;
+        }
+    </script>
 
 
 

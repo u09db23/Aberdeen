@@ -81,14 +81,21 @@ nav ul>li>a:hover::before {
     }
 }
 
+.row {
+    clear: both;
+}
 .column {
     float: left;
-  }
-  
-  .left {
+}
+.left {
     width: 25%;
-  }
-  
-  .right {
+    background-color: #aaa;
+}
+.right {
     width: 75%;
-  }
+    background-color: #bbb;
+}
+button {
+    margin-top: 20px;
+    display: block;
+}
