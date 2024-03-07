@@ -82,3 +82,11 @@ nav ul>li>a:hover::before {
         margin-right: 3px !important;
     }
 }
+
+
+
+.map {
+  float: right;
+  padding: 50px;
+  margin: 50px 50px
+}
