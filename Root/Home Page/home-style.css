@@ -95,14 +95,16 @@ nav ul>li>a:hover::before {
 
 .map {
   float: right;
-  padding: 50px;
-  margin: 50px 50px;
-  scale: 100%
+  flex: auto;
+  margin: 110px 15px 0 15px;
+  scale: 100%;
+  border: 10px;
+  border-color: rgb(110, 5, 5);
+  border-style: double;
 }
 
 .homepara1 {
     padding: 25px;
     margin-top: 75px;
     font-size: large;
-
 }
