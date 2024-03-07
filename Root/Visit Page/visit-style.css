@@ -80,3 +80,15 @@ nav ul>li>a:hover::before {
         margin-right: 3px !important;
     }
 }
+
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
