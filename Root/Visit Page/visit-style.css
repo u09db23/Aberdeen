@@ -96,8 +96,11 @@ nav ul>li>a:hover::before {
 }
 
 button {
-    margin-top: 20px;
+    margin: 20px;
     display: block;
+    width: 80%;
+    justify-content: center;
+
 }
 .hidden {
     display: none
