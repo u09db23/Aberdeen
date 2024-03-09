@@ -34,35 +34,33 @@
 
     <div class="row">
         <div class="column left">
-            <h2>Things To Do In Aberdeen</h2>
-            <button onclick="changeText('Button 1')">Codonas</button>
-
-
-
-
-            <button onclick="changeText('Button 2')">Aberdeen Art Gallery</button>
-
-
-
-
-            <button onclick="changeText('Button 3')">Duthie Park</button>
-
-
-
-            
+          <button id="showDiv1">Show Div 1</button>
+          <button id="showDiv2">Show Div 2</button>
+          <button id="showDiv3">Show Div 3</button>
         </div>
         <div class="column right">
-            <h2>Column 2</h2>
-            <p id="rightText">Text</p>
+          <div id="div1" class="hidden">Div 1 Content</div>
+          <div id="div2" class="hidden">Div 2 Content</div>
+          <div id="div3" class="hidden">Div 3 Content</div>
         </div>
-    </div>
-
-    <script>
-        function changeText(newText) {
-            document.getElementById("rightText").innerText = newText;
-        }
-    </script>
-
-
-
-</body>
+      </div>
+      
+      <script>
+      document.getElementById("showDiv1").addEventListener("click", function() {
+        document.getElementById("div1").style.display = "block";
+        document.getElementById("div2").style.display = "none";
+        document.getElementById("div3").style.display = "none";
+      });
+      
+      document.getElementById("showDiv2").addEventListener("click", function() {
+        document.getElementById("div1").style.display = "none";
+        document.getElementById("div2").style.display = "block";
+        document.getElementById("div3").style.display = "none";
+      });
+      
+      document.getElementById("showDiv3").addEventListener("click", function() {
+        document.getElementById("div1").style.display = "none";
+        document.getElementById("div2").style.display = "none";
+        document.getElementById("div3").style.display = "block";
+      });
+      </script>

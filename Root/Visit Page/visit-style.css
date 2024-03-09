@@ -93,9 +93,12 @@ nav ul>li>a:hover::before {
 }
 .right {
     width: 75%;
-    background-color: #bbb;
 }
+
 button {
     margin-top: 20px;
     display: block;
+}
+.hidden {
+    display: none
 }
