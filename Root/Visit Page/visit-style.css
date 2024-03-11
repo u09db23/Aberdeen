@@ -117,16 +117,10 @@ button {
 }
 
 .custom-carousel {
-    width: 600px; 
-    position: absolute;
-    top: 300px; 
-    right: 20px; 
-}
-
-
-.custom-carousel {
+    width: 600px;
     border: 4px double #000;
 }
+
 
 
 #visit_info_header {
@@ -136,4 +130,16 @@ font-size: 500%;
 font-weight: bolder;
 text-decoration-line: underline;
 padding-left: 200px;
+}
+
+#content-container {
+    display: flex;
+}
+
+#text-container {
+    flex: 1;
+}
+
+#carousel-container {
+    margin-left: auto;
 }
