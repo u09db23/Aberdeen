@@ -141,5 +141,12 @@ padding-left: 200px;
 }
 
 #carousel-container {
-    margin-left: auto;
+    text-align: right;
+    float: right;
+    margin: 0 20px 10px 20px
+    
+}
+
+#visit_info_p1{
+text-align: left;
 }
