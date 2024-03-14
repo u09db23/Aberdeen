@@ -86,3 +86,15 @@ nav ul>li>a:hover::before {
         margin-right: 3px !important;
     }
 }
+
+#what-page {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+#history-p1 {
+    padding: 25px;
+    margin-top: 75px;
+    font-size: large;
+}
