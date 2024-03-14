@@ -98,3 +98,31 @@ nav ul>li>a:hover::before {
     margin-top: 75px;
     font-size: large;
 }
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.column {
+   float: none;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row1 { 
+    margin-right: 25px;
+    padding-right: 25px;
+    padding-left: 20px;
+}
+
+
+
+
+
