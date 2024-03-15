@@ -48,7 +48,6 @@ nav li {
     display: inline-block;
     margin-left: 50px;
     padding-top: 30px;
-
     position: relative;
 }
 
@@ -129,11 +128,10 @@ nav ul>li>a:hover::before {
     text-decoration: underline;
 }
 
-a {
+.hl {
     color: grey;
     background-color: transparent;
     font-style: italic;
     text-decoration: none;
-
   }
 
