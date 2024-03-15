@@ -16,7 +16,7 @@ nav {
     float: right
 }
 
-.container {
+.header-container {
     background: rgb(110, 5, 5);
     width: 80%;
     margin: 0 auto;
@@ -75,34 +75,38 @@ nav ul>li>a:hover::before {
     width: 100%
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .column {
     float: left;
     padding: 12px;
     min-height: 350px;
+    box-sizing: border-box;
 }
 
 .left-side {
     width: 41.67%;
+    box-sizing: border-box;
 }
 
 
 .right-side {
     width: 58.33%;
+    box-sizing: border-box;
 }
 
 .both-rows:after {
     content: "";
     display: table;
     clear: both;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
     .column {
         width: 100%;
     }
+}
+
+.hidden {
+    display: none
 }
 

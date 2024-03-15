@@ -12,7 +12,7 @@
 <body>
     
     <header>
-        <div class="container">
+        <div class="header-container">
       
           <img src="../Home Page/Logo.PNG" atl="logo" class="logo">
     
@@ -30,17 +30,27 @@
     <div class="both-rows">
         <div class="column left-side" style="background-color:cyan">
             <h1>Column 1</h1>
-            <h3></h3>
-        </div>
-        <div class="column right-side" style="background-color:rgb(255, 0, 0)">
-            <h1>Column 2</h1>
-            <h3></h3>
+          
+              <button id="showDiv1" type="button" class="btn btn-danger">Codonas</button>
+              <p>HERE IS SOME TEXT ABOUT CODONAS</p>
+              <button id="showDiv2" type="button" class="btn btn-danger">Aberdeen Art Gallery</button>
+              <p>HERE IS SOME TEXT ABOUT ART</p>
+              <button id="showDiv3" type="button" class="btn btn-danger">Duthie Park</button>
+              <p>HERE IS SOME TEXT ABOUT PARK</p>
         </div>
 
+
+
+        <div class="column right-side" style="background-color:rgb(255, 0, 0)">
+            <h1>Column 2</h1>
+            <div id="div1" class="hidden">Div 1 Content</div>
+            <div id="div2" class="hidden">Div 2 Content</div>
+            <div id="div3" class="hidden">Div 3 Content</div>
+        </div>
     </div>
 
 
-
+    
     
 
 
@@ -59,6 +69,25 @@
 
 
 
+    <script>
+      document.getElementById("showDiv1").addEventListener("click", function () {
+         document.getElementById("div1").style.display = "block";
+         document.getElementById("div2").style.display = "none";
+         document.getElementById("div3").style.display = "none";
+       });
+ 
+      document.getElementById("showDiv2").addEventListener("click", function () {
+         document.getElementById("div1").style.display = "none";
+         document.getElementById("div2").style.display = "block";
+         document.getElementById("div3").style.display = "none";
+      });
+ 
+       document.getElementById("showDiv3").addEventListener("click", function () {
+         document.getElementById("div1").style.display = "none";
+         document.getElementById("div2").style.display = "none";
+         document.getElementById("div3").style.display = "block";
+       });
+        </script>
 
 </body>
 </html>
