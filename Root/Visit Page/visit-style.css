@@ -128,3 +128,8 @@ nav ul>li>a:hover::before {
     font-size: large;
     padding: 15px;
 }
+
+.car-container {
+    max-width: 50%;
+    padding: 30px;
+}
