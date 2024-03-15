@@ -22,7 +22,7 @@ nav {
     float: right
 }
 
-.container {
+.container1 {
     background: rgb(110, 5, 5);
     width: 80%;
     margin: 0 auto;
@@ -113,4 +113,27 @@ nav ul>li>a:hover::before {
     font-size: large;
 }
 
+
+#facts {
+    color: black;
+    font-size: 16px;
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    width: 60%;
+    margin: 25px;
+}
+
+#facts-title {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a {
+    color: grey;
+    background-color: transparent;
+    font-style: italic;
+    text-decoration: none;
+
+  }
 
