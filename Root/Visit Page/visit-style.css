@@ -171,7 +171,37 @@ nav ul>li>a:hover::before {
         width: 100%;
     }
     .ride-info{
-        max-width: 100%;
+        width: 100%;
         float: none;
     }
 }
+
+.container{
+    max-width: 100%
+  }
+  
+  .ride-info1{
+    width: 33%;
+    height: 50px;
+    display: table-cell;
+    vertical-align: top;
+    padding: 25px;
+  }
+  
+  .ride-info2{
+    width: 33%;
+    height: 50px;
+    display: table-cell;
+    vertical-align: top;
+    padding: 25px;
+  }
+  
+  .ride-info3{
+    width: 33%;
+    height: 50px;
+    display: table-cell;
+    vertical-align: top;
+    padding: 25px;
+  }
+
+
