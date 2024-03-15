@@ -4,7 +4,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+#what-page {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
 
 header {
     background: rgb(110, 5, 5);
@@ -108,3 +112,5 @@ nav ul>li>a:hover::before {
     margin-top: 75px;
     font-size: large;
 }
+
+
