@@ -127,9 +127,15 @@ nav ul>li>a:hover::before {
     color: black;
     font-size: large;
     padding: 15px;
+    max-width: 45%;
+    float: left
+    ;
 }
 
 .car-container {
     max-width: 50%;
     padding: 30px;
+    float: left;
 }
+
+
