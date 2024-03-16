@@ -121,6 +121,7 @@ nav ul>li>a:hover::before {
     border-style: solid;
     width: 60%;
     margin: 25px;
+    background-color: #FCE5C2;
 }
 
 #facts-title {

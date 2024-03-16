@@ -90,7 +90,7 @@ nav ul>li>a:hover::before {
 
 
 .right-side {
-    width: 58.33%;
+    width: 54.33%;
     box-sizing: border-box;
 }
 
@@ -205,6 +205,10 @@ nav ul>li>a:hover::before {
     padding: 25px;
   }
 
-
+.left-side{
+    border: 2px;
+    border-style: solid;
+    margin-left: 5px;
+}
  
 
