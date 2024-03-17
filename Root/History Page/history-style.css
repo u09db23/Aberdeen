@@ -99,9 +99,15 @@ nav ul>li>a:hover::before {
     font-size: large;
 }
 
+#history-p2 {
+    padding: 25px;
+    margin-top: 75px;
+    font-size: large;
+}
+
 * {
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .column {
